@@ -13,6 +13,7 @@ class TareaList(generics.ListAPIView):
     serializer_class = TareaSerializer
 
 
+
 class TareaBuscar(generics.RetrieveAPIView):
     queryset = Tarea.objects.all()
     serializer_class = TareaSerializer
